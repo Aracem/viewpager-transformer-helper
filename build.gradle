@@ -1,0 +1,22 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+    }
+}
+
+allprojects {
+
+    ext {
+        libraryVersion = '0.1.0'
+        mavenGroupId = ''
+        siteUrl = ''
+        gitUrl = ''
+    }
+
+    repositories {
+        jcenter()
+    }
+}
